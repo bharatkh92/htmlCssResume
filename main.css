@@ -3,91 +3,50 @@ body{
     background-color: #525758;
 }
 .page{
-    display: flex;
-    height: 1048px;
     width: 793px;
+    height: 1048px;
     background-color: red;
     margin: auto;
     box-shadow: 0px 1px 5px black;
 }
-.left{
-    width: 289px;
+.top {
+    display: flex;
+    height: 238px;
+}
+.topLeft, .bottomLeft{
     background-color: black;
-    height: 1048px;
     color: white;
     font-size: 12px;
 }
-.left div{
-    padding-left: 28px;
-    line-height: 0.95;
+
+.topLeft {
+    width: 289px;
 }
 
-.left h1{
-    text-align: left;
-}
-.left hr{
-    margin-right: 10%;
-    margin-top: -4%;
-}
-.technical td:nth-of-type(1){
-    width: 50%;
-}
-.cognitive td:nth-of-type(2){
-    padding-left: 30px;
-}
-.industry td:nth-of-type(2){
-    padding-left: 30px;
-}
-.right{
-    width: 504px;
+.topRight, .bottomRight{
+    width: 444px;
     background-color:white;
-    height: 1048px;
     font-size: 12px;
     font-weight: 600;
     text-justify: inter-word;
     text-align: justify;
     padding: 0 30px;
     font-weight: 500;
-    
 }
-.right h1{
-    color: #313A4D;
-}
-.rightTop{
-    margin-bottom: 155px;
-    margin-top: 30px;
-}
-.right hr{
-    margin: -3% 0 3% 0;
-}
-.rightBottom ul{
-    padding-left: 15px;
-}
-.year{
-    font-size: 20px;
-    font-weight: 900;
-    margin: 7% 0 -1px 0;
 
+.topRight {
+    padding-top: 15px;
 }
-.company{
-    margin: -1px 0;
-    font-size: 20px;
-}
-.role{
-    margin: -1px 0;
-    font-weight: 900;
-    font-size: 17px;
-}
+
+
 .overlay{
     display: flex;
-    position: absolute;
-    top: 245px;
-    left: 278px;
     width: 793px;
     height: 122px;
     background-color: #EAD142;
     font-stretch: expanded;
 }
+
 .yellow{
     width: 469px;
     line-height: 20px;
@@ -114,7 +73,58 @@ body{
     padding-left: 15px;
     text-align: left;
 }
-.yellowEdge{
-    width: 40px;
-    background-color: #EAD142;
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 688px;
+}
+
+.bottomLeft {
+    width: 261px;
+    padding-left: 28px;
+    line-height: 0.95;
+}
+
+.bottomLeft h1{
+    text-align: left;
+}
+.bottomLeft hr{
+    margin-right: 10%;
+    margin-top: -4%;
+}
+.technical td:nth-of-type(1){
+    width: 50%;
+}
+.cognitive td:nth-of-type(2){
+    padding-left: 30px;
+}
+.industry td:nth-of-type(2){
+    padding-left: 30px;
+}
+
+.bottomRight h1{
+    color: #313A4D;
+}
+
+.bottomRight hr{
+    margin: -3% 0 3% 0;
+}
+.bottomRight ul{
+    padding-left: 15px;
+}
+.year{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 7% 0 -1px 0;
+
+}
+.company{
+    margin: -1px 0;
+    font-size: 20px;
+}
+.role{
+    margin: -1px 0;
+    font-weight: 900;
+    font-size: 17px;
 }
